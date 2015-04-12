@@ -1,3 +1,4 @@
+
 # Load data from file
 ElectricPowerConsumption <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", 
   col.names = colnames(read.table("household_power_consumption.txt", nrow = 1, header = TRUE, sep=";")), na.strings = "?")
